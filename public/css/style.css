@@ -1,0 +1,83 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body .home{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+
+body .home h1{
+    text-align: center;
+}
+
+body .home p{
+    text-align: center;
+    margin-top: 2em;
+    color: red;
+    font-weight: bold;
+}
+
+
+body .home form{
+    margin: auto auto;
+    width: 35%;
+    padding: 2em;
+    box-shadow: .1em .1em 1em rgba(0, 0, 0, 0.098);
+}
+
+body .home form input{
+    border: none;
+    width: 70%;
+    border-radius: .4em;
+    padding: 1.3em;
+    display: block;
+    box-shadow: .1em .1em 1em rgba(0, 0, 0, 0.13);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body .home form span{
+    margin-bottom: 1em ;
+    color: red;
+    display: block;
+}
+
+body .home form input::placeholder{
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.384);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body .home form button{
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 1em;
+    width: 10em;
+    border-radius: .3em;
+    font-weight: bold;
+    margin-top: 1em;
+}
+
+body .home h5,body .dashboard h5{
+    text-align: center;
+    color: rgb(7, 181, 7);
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+body .home h4{
+    text-align: center;
+    color: red;
+    margin-bottom: 1em;
+    font-size: 1.1em;
+}
+
+body .dashboard{
+    text-align: center;
+}
+
+
+#msg.valid{
+    display: none;
+}
